@@ -2,10 +2,13 @@
 <html>
 <head>
 	<title>Contact us</title>
+  <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" type="text/css" href="main.css">
+
 </head>
 
 <body>
-  <h1>Contact us</h1>
+  <h1>Contact Form</h1>
 	<form>
 		<div>
 			<label for="name">Name:</label>
@@ -23,17 +26,19 @@
       <input type="checkbox" id="optin" value="" unchecked>
       <label for="optin">I want to receive news and updates</label>
     </div>
-		<div>
-      <label for="select">Where did you hear about us?</label>
-        <select id="select">
-    			<option value="value1" selected>Social Networks</option> 
-    			<option value="value2">Internet</option>
-    			<option value="value3">Word of mouth</option>
-    			<option value="value4">Other</option>
-    		</select>
-    </div>
-		<div>
-      <input type="submit" value="Send contact request">
+		<div class="button">
+      <div>
+        <label for="select">Where did you hear about us?</label>
+          <select id="select">
+      			<option value="value1" selected>Social Networks</option> 
+      			<option value="value2">Internet</option>
+      			<option value="value3">Word of mouth</option>
+      			<option value="value4">Other</option>
+      		</select>
+      </div>
+  		<div>
+        <input type="submit" value="Send contact request">
+      </div>
     </div>
 	</form>
 </body>

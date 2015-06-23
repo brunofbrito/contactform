@@ -44,12 +44,12 @@ input[type=submit]:hover {
 	background-color: darkgreen;
 }
 
+.button {
+	margin-top:20px;
+}
+
 /*input[type=name], input[type=email] {
 	min-width: 200px;
 	padding: 5px;
 	font-size: 1rem;
 }*/
-
-.button {
-	margin-top:20px;
-}
